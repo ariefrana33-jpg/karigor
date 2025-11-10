@@ -11,14 +11,12 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <Link to="/" className="flex items-center gap-3 mb-4 hover:opacity-80 transition">
-              <div className="w-10 h-10 bg-cyan-500 rounded flex items-center justify-center">
-                <span className="text-white font-bold text-xl">ক</span>
-              </div>
-              <div>
-                <h3 className="text-white text-lg font-bold">কারিগর</h3>
-                <p className="text-cyan-400 text-xs">Karigor Digital Ltd.</p>
-              </div>
+            <Link to="/" className="inline-block mb-4 hover:opacity-90 transition">
+              <img
+                src="/Karigor logo new png.png"
+                alt="Karigor Digital Ltd"
+                className="h-16 w-auto"
+              />
             </Link>
             <p className="text-gray-400 text-sm">
               Copyright © 2012-2022 All rights reserved by Karigor Digital Ltd.
